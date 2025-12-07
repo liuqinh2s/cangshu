@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Layout, Row, Col, Input, Button, Space, Typography, Spin, message, Menu, Card, Tag } from 'antd';
+import { Layout, Row, Col, Input, Button, Space, Typography, Spin, message, Menu, Card, Tag, Empty } from 'antd';
 import { SearchOutlined, PlusOutlined, MenuUnfoldOutlined, MenuFoldOutlined, HomeOutlined, StarOutlined, LinkOutlined } from '@ant-design/icons';
 import styled from 'styled-components';
 import { websiteService } from '../services/api';
@@ -92,6 +92,7 @@ const HomePage = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedSubcategory, setSelectedSubcategory] = useState(null);
   const [collapsed, setCollapsed] = useState(false);
+  const [selectedMainMenuKey, setSelectedMainMenuKey] = useState('home');
   // 分页和分类状态（当前未使用）
   // const [page, setPage] = useState(1);
   // const [category, setCategory] = useState(null);
@@ -177,6 +178,7 @@ const HomePage = () => {
 
   // 处理菜单点击
   const handleMenuClick = (e) => {
+    setSelectedMainMenuKey(e.key);
     if (e.key === 'home') {
       setSelectedCategory(null);
       setSelectedSubcategory(null);
@@ -225,33 +227,71 @@ const HomePage = () => {
         {/* 主菜单 */}
         <Menu
           mode="inline"
-          defaultSelectedKeys={['home']}
+          selectedKeys={[selectedMainMenuKey]}
           items={mainMenuItems}
           onClick={handleMenuClick}
           style={{ marginBottom: 16 }}
         />
         
         {/* 分类菜单 */}
-        {navigationData.map(category => (
-          <div key={category.name} style={{ padding: '8px 0' }}>
-            {!collapsed && (
-              <CategoryTitle>
-                {category.name}
-              </CategoryTitle>
-            )}
-            <Menu
-              mode="inline"
-              selectedKeys={selectedSubcategory && selectedCategory?.name === category.name ? [selectedSubcategory.name] : []}
-              style={{ border: 0 }}
-              items={category.subcategories.map(subcat => ({
-                key: `${category.name}-${subcat.name}`,
-                icon: !collapsed && <LinkOutlined />,
-                label: !collapsed ? subcat.name : '',
-                onClick: () => handleCategorySelect(category, subcat)
-              }))}
-            />
-          </div>
-        ))}
+        {navigationData.map(category => {
+          // 过滤该分类下有内容的子分类
+          const validSubcategories = category.subcategories.map(subcategory => {
+            // 过滤该子分类下的网站 - 使用来自navigation_data.json的本地数据
+            const localWebsites = subcategory.websites || [];
+            
+            // 从后端数据中查找相同的网站
+            const enrichedWebsites = localWebsites.map(localWebsite => {
+              const backendWebsite = websites.find(w => w.url === localWebsite.url);
+              return backendWebsite || {
+                ...localWebsite,
+                likes: [],
+                views: 0,
+                createdAt: new Date().toISOString(),
+                creator: { nickname: '本地数据' }
+              };
+            });
+            
+            // 如果有搜索条件，进一步过滤
+            const filteredWebsites = searchText
+              ? enrichedWebsites.filter(website => 
+                  website.name.includes(searchText) || 
+                  (website.description && website.description.includes(searchText))
+                )
+              : enrichedWebsites;
+            
+            return { subcategory, filteredWebsites };
+          }).filter(item => item.filteredWebsites.length > 0);
+          
+          // 如果该分类下没有有效子分类，不显示该分类
+          if (validSubcategories.length === 0) {
+            return null;
+          }
+          
+          return (
+            <div key={category.name} style={{ padding: '8px 0' }}>
+              {!collapsed && (
+                <CategoryTitle>
+                  {category.name}
+                </CategoryTitle>
+              )}
+              <Menu
+                mode="inline"
+                selectedKeys={selectedSubcategory && selectedCategory?.name === category.name ? [`${selectedCategory.name}-${selectedSubcategory.name}`] : []}
+                style={{ border: 0 }}
+                items={validSubcategories.map(item => {
+                  const subcat = item.subcategory;
+                  return {
+                    key: `${category.name}-${subcat.name}`,
+                    icon: !collapsed && <LinkOutlined />,
+                    label: !collapsed ? subcat.name : '',
+                    onClick: () => handleCategorySelect(category, subcat)
+                  };
+                })}
+              />
+            </div>
+          );
+        })}
       </StyledSider>
       
       <Layout style={{ marginLeft: collapsed ? 80 : 250, transition: 'margin-left 0.3s' }}>
@@ -313,27 +353,15 @@ const HomePage = () => {
           
           {/* 网站列表 */}
           <Spin spinning={loading}>
-            {/* 按分类和子分类渲染网站 */}
-            {navigationData.map(category => (
-              <div key={category.name} style={{ marginBottom: 32 }}>
-                {/* 主分类区域 */}
-                <div id={`category-${category.name}`} style={{ 
-                  marginTop: 60, 
-                  marginBottom: 16, 
-                  padding: '12px 16px', 
-                  backgroundColor: '#f5f5f5', 
-                  borderRadius: '8px',
-                  borderLeft: '4px solid #1890ff'
-                }}>
-                  <h2 style={{ fontSize: '24px', margin: 0, fontWeight: '600' }}>{category.name}</h2>
-                </div>
-                
-                {/* 子分类区域 */}
-                {category.subcategories.map(subcategory => {
-                  // 过滤该子分类下的网站 - 使用来自navigation_data.json的本地数据
+            {/* 计算所有有效子分类，用于检查是否有搜索结果 */}
+            {(() => {
+              // 首先计算所有有效子分类
+              const allValidSubcategories = navigationData.flatMap(category => {
+                return category.subcategories.map(subcategory => {
+                  // 获取本地网站数据
                   const localWebsites = subcategory.websites || [];
                   
-                  // 从后端数据中查找相同的网站，获取点赞数、收藏数等动态数据
+                  // 丰富网站数据
                   const enrichedWebsites = localWebsites.map(localWebsite => {
                     const backendWebsite = websites.find(w => w.url === localWebsite.url);
                     return backendWebsite || {
@@ -345,7 +373,7 @@ const HomePage = () => {
                     };
                   });
                   
-                  // 如果有搜索条件，进一步过滤
+                  // 过滤符合搜索条件的网站
                   const filteredWebsites = searchText
                     ? enrichedWebsites.filter(website => 
                         website.name.includes(searchText) || 
@@ -353,41 +381,91 @@ const HomePage = () => {
                       )
                     : enrichedWebsites;
                   
-                  // 如果该子分类下没有网站且没有搜索条件，不显示
-                  if (filteredWebsites.length === 0 && !searchText) {
-                    return null;
-                  }
-                  
-                  return (
-                    <div key={subcategory.name} style={{ marginBottom: 24 }}>
-                      <div id={`category-${category.name}-${subcategory.name}`} style={{ 
-                        marginBottom: 12, 
-                        padding: '8px 12px', 
-                        backgroundColor: '#fff', 
-                        borderRadius: '6px',
-                        boxShadow: '0 1px 4px rgba(0, 0, 0, 0.05)',
-                        borderLeft: '3px solid #40a9ff'
-                      }}>
-                        <h3 style={{ fontSize: '18px', margin: 0, fontWeight: '500' }}>{subcategory.name}</h3>
-                      </div>
-                      
-                      <WebsiteGrid>
-                        {filteredWebsites.map((website, index) => (
-                          <WebsiteCard key={`${category.name}-${subcategory.name}-${index}`} website={website} onUpdate={handleWebsiteUpdate} />
-                        ))}
-                      </WebsiteGrid>
+                  return { category, subcategory, filteredWebsites };
+                }).filter(item => item.filteredWebsites.length > 0);
+              });
+              
+              // 如果没有任何有效子分类且正在搜索，显示提示信息
+              if (allValidSubcategories.length === 0 && searchText) {
+                return (
+                  <div style={{ textAlign: 'center', padding: '60px 0' }}>
+                    <Empty
+                      image={Empty.PRESENTED_IMAGE_SIMPLE}
+                      description={<span>未找到符合条件的网站</span>}
+                    />
+                  </div>
+                );
+              }
+              
+              // 按分类分组有效子分类
+              const validCategories = {};
+              allValidSubcategories.forEach(item => {
+                if (!validCategories[item.category.name]) {
+                  validCategories[item.category.name] = {
+                    category: item.category,
+                    subcategories: []
+                  };
+                }
+                validCategories[item.category.name].subcategories.push({
+                  subcategory: item.subcategory,
+                  filteredWebsites: item.filteredWebsites
+                });
+              });
+              
+              // 渲染网站列表
+              const renderedContent = Object.values(validCategories).map(categoryGroup => {
+                const { category, subcategories } = categoryGroup;
+                
+                return (
+                  <div key={category.name} style={{ marginBottom: 32 }}>
+                    {/* 主分类区域 */}
+                    <div id={`category-${category.name}`} style={{ 
+                      marginTop: 60, 
+                      marginBottom: 16, 
+                      padding: '12px 16px', 
+                      backgroundColor: '#f5f5f5', 
+                      borderRadius: '8px',
+                      borderLeft: '4px solid #1890ff'
+                    }}>
+                      <h2 style={{ fontSize: '24px', margin: 0, fontWeight: '600' }}>{category.name}</h2>
                     </div>
-                  );
-                })}
-              </div>
-            ))}
-            
-            {/* 空状态 */}
-            {!loading && websites.length === 0 && (
-              <div style={{ textAlign: 'center', padding: '60px 0', color: '#8c8c8c' }}>
-                <Text>暂无网站数据</Text>
-              </div>
-            )}
+                    
+                    {/* 子分类区域 */}
+                    {subcategories.map(({ subcategory, filteredWebsites }) => (
+                      <div key={subcategory.name} style={{ marginBottom: 24 }}>
+                        <div id={`category-${category.name}-${subcategory.name}`} style={{ 
+                          marginBottom: 12, 
+                          padding: '8px 12px', 
+                          backgroundColor: '#fff', 
+                          borderRadius: '6px',
+                          boxShadow: '0 1px 4px rgba(0, 0, 0, 0.05)',
+                          borderLeft: '3px solid #40a9ff'
+                        }}>
+                          <h3 style={{ fontSize: '18px', margin: 0, fontWeight: '500' }}>{subcategory.name}</h3>
+                        </div>
+                        
+                        <WebsiteGrid>
+                          {filteredWebsites.map((website, index) => (
+                            <WebsiteCard key={`${category.name}-${subcategory.name}-${index}`} website={website} onUpdate={handleWebsiteUpdate} />
+                          ))}
+                        </WebsiteGrid>
+                      </div>
+                    ))}
+                  </div>
+                );
+              });
+              
+              // 如果没有任何有效子分类且未搜索，显示空状态
+              if (allValidSubcategories.length === 0 && !searchText) {
+                return (
+                  <div style={{ textAlign: 'center', padding: '60px 0', color: '#8c8c8c' }}>
+                    <Text>暂无网站数据</Text>
+                  </div>
+                );
+              }
+              
+              return renderedContent;
+            })()}
           </Spin>
         </StyledContent>
       </Layout>
