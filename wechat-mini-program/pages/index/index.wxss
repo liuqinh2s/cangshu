@@ -1,0 +1,129 @@
+/* pages/index/index.wxss */
+.container {
+  padding: 20rpx;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+.search-bar {
+  margin-bottom: 20rpx;
+}
+
+.search-input {
+  width: 100%;
+  height: 60rpx;
+  background-color: #fff;
+  border-radius: 30rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+}
+
+.website-list {
+  height: calc(100vh - 140rpx);
+}
+
+.website-item {
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.website-info {
+  margin-bottom: 10rpx;
+}
+
+.website-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+  color: #333;
+}
+
+.website-url {
+  font-size: 26rpx;
+  color: #1890ff;
+  margin-bottom: 10rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.website-description {
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 10rpx;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.website-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #f0f0f0;
+  border-radius: 15rpx;
+  padding: 5rpx 15rpx;
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+  font-size: 24rpx;
+  color: #666;
+}
+
+.website-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10rpx;
+}
+
+.action-item {
+  display: flex;
+  align-items: center;
+  margin-left: 30rpx;
+}
+
+.action-icon {
+  font-size: 30rpx;
+  margin-right: 5rpx;
+}
+
+.action-text {
+  font-size: 26rpx;
+  color: #999;
+}
+
+.load-more {
+  text-align: center;
+  padding: 20rpx;
+  color: #999;
+  font-size: 28rpx;
+}
+
+.add-btn {
+  position: fixed;
+  bottom: 40rpx;
+  right: 40rpx;
+  width: 80rpx;
+  height: 80rpx;
+  background-color: #1890ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.2);
+}
+
+.add-icon {
+  font-size: 50rpx;
+  color: #fff;
+  line-height: 80rpx;
+}

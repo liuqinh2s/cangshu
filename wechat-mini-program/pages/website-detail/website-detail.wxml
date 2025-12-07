@@ -1,0 +1,62 @@
+<!-- pages/website-detail/website-detail.wxml -->
+<view class="container">
+  <!-- 网站详情 -->
+  <view class="website-detail">
+    <view class="website-title">{{website.title}}</view>
+    <view class="website-url">{{website.url}}</view>
+    <view class="website-description">{{website.description}}</view>
+    <view class="website-tags">
+      <text class="tag" wx:for="{{website.tags}}" wx:key="*this" wx:for-item="tag">{{tag}}</text>
+    </view>
+    <view class="website-meta">
+      <text class="meta-item">分享者: {{website.user.nickname}}</text>
+      <text class="meta-item">发布时间: {{website.createdAt}}</text>
+    </view>
+  </view>
+  
+  <!-- 操作按钮 -->
+  <view class="actions">
+    <button 
+      class="action-btn {{website.isLiked ? 'liked' : ''}}" 
+      bindtap="toggleLike"
+    >
+      {{website.isLiked ? '❤️ 已点赞' : '🤍 点赞'}} ({{website.likeCount}})
+    </button>
+    <button 
+      class="action-btn {{website.isCollected ? 'collected' : ''}}" 
+      bindtap="toggleCollection"
+    >
+      {{website.isCollected ? '⭐ 已收藏' : '☆ 收藏'}} ({{website.collectionCount}})
+    </button>
+    <button class="action-btn" bindtap="openWebsite">
+      打开网站
+    </button>
+  </view>
+  
+  <!-- 评论区 -->
+  <view class="comments-section">
+    <view class="section-title">评论 ({{comments.length}})</view>
+    
+    <!-- 评论列表 -->
+    <view class="comments-list">
+      <view class="comment-item" wx:for="{{comments}}" wx:key="_id">
+        <view class="comment-header">
+          <text class="comment-author">{{item.user.nickname}}</text>
+          <text class="comment-time">{{item.createdAt}}</text>
+        </view>
+        <view class="comment-content">{{item.content}}</view>
+      </view>
+    </view>
+    
+    <!-- 发表评论 -->
+    <view class="comment-input-section">
+      <input 
+        class="comment-input" 
+        placeholder="写下你的评论..." 
+        bindinput="onCommentInput"
+        value="{{commentContent}}"
+      />
+      <button class="send-btn" bindtap="submitComment">发送</button>
+    </view>
+  </view>
+</view>

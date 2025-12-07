@@ -1,0 +1,17 @@
+<!-- pages/login/login.wxml -->
+<view class="container">
+  <view class="logo">
+    <text class="logo-text">仓鼠导航</text>
+  </view>
+  <view class="login-content">
+    <text class="login-desc">登录后即可收藏和分享您喜欢的网站</text>
+    <button 
+      class="login-btn" 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      withCredentials="true"
+    >
+      微信授权登录
+    </button>
+  </view>
+</view>

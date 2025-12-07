@@ -1,0 +1,18 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+/* 通用容器样式 */
+.container {
+  width: 100%;
+  padding: 0 20px;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}

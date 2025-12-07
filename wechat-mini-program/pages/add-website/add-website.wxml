@@ -1,0 +1,96 @@
+<!-- pages/add-website/add-website.wxml -->
+<view class="container">
+  <form bindsubmit="submitForm">
+    <!-- 网站标题 -->
+    <view class="form-item">
+      <text class="form-label">网站标题 *</text>
+      <input 
+        class="form-input" 
+        name="title" 
+        placeholder="请输入网站标题" 
+        value="{{formData.title}}"
+        bindinput="onInputChange"
+        data-field="title"
+        required
+      />
+    </view>
+    
+    <!-- 网站URL -->
+    <view class="form-item">
+      <text class="form-label">网站URL *</text>
+      <input 
+        class="form-input" 
+        name="url" 
+        placeholder="请输入网站URL，如 https://www.example.com" 
+        value="{{formData.url}}"
+        bindinput="onInputChange"
+        data-field="url"
+        type="url"
+        required
+      />
+    </view>
+    
+    <!-- 网站描述 -->
+    <view class="form-item">
+      <text class="form-label">网站描述</text>
+      <textarea 
+        class="form-textarea" 
+        name="description" 
+        placeholder="请输入网站描述" 
+        value="{{formData.description}}"
+        bindinput="onInputChange"
+        data-field="description"
+        auto-height
+      />
+    </view>
+    
+    <!-- 网站标签 -->
+    <view class="form-item">
+      <text class="form-label">网站标签</text>
+      <input 
+        class="form-input" 
+        name="tags" 
+        placeholder="请输入标签，用逗号分隔，如 工具,设计,前端" 
+        value="{{formData.tags}}"
+        bindinput="onInputChange"
+        data-field="tags"
+      />
+    </view>
+    
+    <!-- 分类选择 -->
+    <view class="form-item">
+      <text class="form-label">分类</text>
+      <picker 
+        class="form-picker" 
+        range="{{categories}}" 
+        name="category"
+        value="{{formData.category}}"
+        bindchange="onCategoryChange"
+      >
+        <text class="picker-text">{{categories[formData.category] || '请选择分类'}}</text>
+      </picker>
+    </view>
+    
+    <!-- 公开设置 -->
+    <view class="form-item">
+      <text class="form-label">公开设置</text>
+      <switch 
+        name="isPublic" 
+        checked="{{formData.isPublic}}"
+        bindchange="onSwitchChange"
+        data-field="isPublic"
+      />
+      <text class="switch-text">{{formData.isPublic ? '公开' : '私有'}}</text>
+    </view>
+    
+    <!-- 提交按钮 -->
+    <button 
+      class="submit-btn" 
+      form-type="submit" 
+      loading="{{loading}}"
+      disabled="{{loading}}"
+    >
+      提交
+    </button>
+  </form>
+</view>

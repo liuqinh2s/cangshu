@@ -1,0 +1,1576 @@
+[
+  {
+    "name": "个人博客",
+    "subcategories": [
+      {
+        "name": "中文",
+        "websites": [
+          {
+            "name": "阮一峰的博客",
+            "url": "http://www.ruanyifeng.com/blog/",
+            "description": ""
+          },
+          {
+            "name": "槽边往事",
+            "url": "https://www.hecaitou.com/",
+            "description": ""
+          },
+          {
+            "name": "槽边往事",
+            "url": "https://www.hecaitou.info/",
+            "description": ""
+          },
+          {
+            "name": "云风的 BLOG",
+            "url": "https://blog.codingnow.com/",
+            "description": ""
+          },
+          {
+            "name": "李笑来",
+            "url": "https://lixiaolai.com/#/",
+            "description": ""
+          },
+          {
+            "name": "翁天信",
+            "url": "https://www.dandyweng.com/",
+            "description": ""
+          },
+          {
+            "name": "王垠的博客",
+            "url": "https://www.yinwang.org/",
+            "description": ""
+          },
+          {
+            "name": "酷壳的延续",
+            "url": "https://coolshell.me/",
+            "description": ""
+          },
+          {
+            "name": "酷壳",
+            "url": "https://coolshell.cn/",
+            "description": ""
+          },
+          {
+            "name": "程序员的喵",
+            "url": "https://catcoding.me/",
+            "description": ""
+          },
+          {
+            "name": "冴羽",
+            "url": "https://yayujs.com/",
+            "description": ""
+          },
+          {
+            "name": "icheer.me",
+            "url": "https://icheer.me/",
+            "description": ""
+          },
+          {
+            "name": "matrix67",
+            "url": "https://matrix67.com/",
+            "description": ""
+          },
+          {
+            "name": "Long Luo's Life Notes",
+            "url": "https://www.longluo.me/",
+            "description": ""
+          },
+          {
+            "name": "胡涂说",
+            "url": "https://hutusi.com/",
+            "description": ""
+          },
+          {
+            "name": "拔赤",
+            "url": "http://jayli.github.io/",
+            "description": ""
+          },
+          {
+            "name": "知乎 vczh 轮子哥",
+            "url": "http://www.cppblog.com/vczh/",
+            "description": ""
+          },
+          {
+            "name": "刘未鹏",
+            "url": "http://mindhacks.cn/",
+            "description": ""
+          },
+          {
+            "name": "geekplux",
+            "url": "https://geekplux.com/",
+            "description": ""
+          },
+          {
+            "name": "lcomplete 的技术分享",
+            "url": "https://tech.codelc.com/",
+            "description": ""
+          },
+          {
+            "name": "Shidenggui",
+            "url": "https://shidenggui.com/",
+            "description": ""
+          },
+          {
+            "name": "folyd",
+            "url": "https://folyd.com/",
+            "description": ""
+          },
+          {
+            "name": "t9t",
+            "url": "https://blog.t9t.io/",
+            "description": ""
+          },
+          {
+            "name": "匠心博客",
+            "url": "https://zhaomenghuan.js.org/",
+            "description": ""
+          },
+          {
+            "name": "小弟调调 ™",
+            "url": "https://wangchujiang.com/",
+            "description": ""
+          },
+          {
+            "name": "山月行",
+            "url": "https://shanyue.tech/",
+            "description": ""
+          },
+          {
+            "name": "卢昌海个人主页",
+            "url": "https://www.changhai.org/index.php",
+            "description": ""
+          },
+          {
+            "name": "Wang Jie - Biofy",
+            "url": "https://biofy.cn/wangjiegulu",
+            "description": "Biofy](https://biofy.cn/wangjiegulu)"
+          }
+        ]
+      },
+      {
+        "name": "English",
+        "websites": [
+          {
+            "name": "meyerweb",
+            "url": "https://meyerweb.com/",
+            "description": ""
+          },
+          {
+            "name": "dogatekin",
+            "url": "https://www.dogatekin.com/",
+            "description": ""
+          },
+          {
+            "name": "humanwhocodes",
+            "url": "https://humanwhocodes.com/",
+            "description": ""
+          },
+          {
+            "name": "standardista",
+            "url": "http://www.standardista.com/",
+            "description": ""
+          },
+          {
+            "name": "stuffwithstuff",
+            "url": "https://journal.stuffwithstuff.com/",
+            "description": ""
+          },
+          {
+            "name": "Anish Athalye",
+            "url": "https://anishathalye.com/",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "我的工具",
+    "subcategories": [
+      {
+        "name": "默认",
+        "websites": [
+          {
+            "name": "liqi - 利器",
+            "url": "https://liqi.io",
+            "description": "利器](https://liqi.io)"
+          }
+        ]
+      },
+      {
+        "name": "服务器购买平台",
+        "websites": [
+          {
+            "name": "萤光云管理控制台",
+            "url": "https://console.ygcloud.com/login",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "综合资源",
+        "websites": [
+          {
+            "name": "Internet Archive: Digital Library of Free & Borrowable Books, Movies, Music & Wayback Machine",
+            "url": "https://archive.org/",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "新闻热点",
+        "websites": [
+          {
+            "name": "今日热榜",
+            "url": "https://tophub.today/",
+            "description": ""
+          },
+          {
+            "name": "摸摸鱼热榜",
+            "url": "https://momoyu.cc/",
+            "description": ""
+          },
+          {
+            "name": "知微事见",
+            "url": "https://ef.zhiweidata.com/",
+            "description": ""
+          },
+          {
+            "name": "果汁排行榜 - 各类榜单排名大全",
+            "url": "http://guozhivip.com/rank/",
+            "description": "各类榜单排名大全](http://guozhivip.com/rank/)"
+          }
+        ]
+      },
+      {
+        "name": "导航",
+        "websites": [
+          {
+            "name": "影视导航",
+            "url": "https://ys.urlsdh.com/",
+            "description": ""
+          },
+          {
+            "name": "AI 导航",
+            "url": "https://ai.nancheng.fun/",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "开源项目",
+        "websites": [
+          {
+            "name": "HelloGitHub",
+            "url": "https://hellogithub.com/",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "AI",
+        "websites": [
+          {
+            "name": "ChatGPT",
+            "url": "https://chat.openai.com/",
+            "description": ""
+          },
+          {
+            "name": "openprompt",
+            "url": "https://openprompt.co/",
+            "description": ""
+          },
+          {
+            "name": "Raphael - 免费无限制 AI 图像生成器 | FLUX.1-Dev 模型",
+            "url": "https://raphael.app/zh",
+            "description": "免费无限制 AI 图像生成器 | FLUX.1-Dev 模型](https://raphael.app/zh)"
+          },
+          {
+            "name": "Hika AI - Free AI Search Engine for Deep Insights and Smart Knowledge Mapping",
+            "url": "https://hika.fyi/",
+            "description": "Free AI Search Engine for Deep Insights and Smart Knowledge Mapping](https://hika.fyi/)"
+          },
+          {
+            "name": "MemFree - Hybrid AI Search",
+            "url": "https://www.memfree.me/",
+            "description": "Hybrid AI Search](https://www.memfree.me/)"
+          },
+          {
+            "name": "【官网】302.AI - 汇集全球顶级品牌的 AI 超市，零月费，按需付费，全面开放",
+            "url": "https://302.ai/",
+            "description": "汇集全球顶级品牌的 AI 超市，零月费，按需付费，全面开放](https://302.ai/)"
+          },
+          {
+            "name": "用 Slea.ai 免费 AI Logo 生成器轻松创建专业 Logo",
+            "url": "https://slea.ai/zh-CN",
+            "description": ""
+          },
+          {
+            "name": "xiao-zaiyi/illa-helper: 浸入式学语言助手 (Immersive Language Learning Assistant)",
+            "url": "https://github.com/xiao-zaiyi/illa-helper?tab=readme-ov-file",
+            "description": ""
+          },
+          {
+            "name": "mengxi-ream/read-frog: 🐸 Read Frog - Open Source Immersive Translate | 🐸 陪读蛙 - 开源沉浸式翻译",
+            "url": "https://github.com/mengxi-ream/read-frog",
+            "description": "Open Source Immersive Translate | 🐸 陪读蛙 - 开源沉浸式翻译](https://github.com/mengxi-ream/read-frog)"
+          },
+          {
+            "name": "MCP 市场 - 收录 20,000+ MCP Servers 的全球最大平台",
+            "url": "https://mcpmarket.cn/",
+            "description": "收录 20,000+ MCP Servers 的全球最大平台](https://mcpmarket.cn/)"
+          }
+        ]
+      },
+      {
+        "name": "软件",
+        "websites": [
+          {
+            "name": "daily.dev | Where developers grow together",
+            "url": "https://app.daily.dev/",
+            "description": ""
+          },
+          {
+            "name": "Everything - 基于名称快速定位文件和文件夹。",
+            "url": "https://www.voidtools.com/zh-cn/",
+            "description": "基于名称快速定位文件和文件夹。](https://www.voidtools.com/zh-cn/)"
+          },
+          {
+            "name": "iPA 商店-最优秀的 iPA 资源下载网站",
+            "url": "https://ipa.store/",
+            "description": ""
+          },
+          {
+            "name": "「stardew valley」的搜索结果\\_马克喵",
+            "url": "https://www.macat.vip/",
+            "description": ""
+          },
+          {
+            "name": "墨刀 - 适合产品经理的原型设计及协作平台",
+            "url": "https://modao.cc/",
+            "description": "适合产品经理的原型设计及协作平台](https://modao.cc/)：我曾经想做一款社交媒体软件，用墨刀画的原型"
+          },
+          {
+            "name": "Dribbble - Discover the World’s Top Designers & Creative Professionals",
+            "url": "https://dribbble.com/",
+            "description": "Discover the World’s Top Designers & Creative Professionals](https://dribbble.com/)"
+          }
+        ]
+      },
+      {
+        "name": "配色",
+        "websites": [
+          {
+            "name": "Color Leap - 色彩时光机",
+            "url": "https://colorleap.app/home",
+            "description": "色彩时光机](https://colorleap.app/home)"
+          },
+          {
+            "name": "中国传统颜色",
+            "url": "http://zhongguose.com/",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "图片",
+        "websites": [
+          {
+            "name": "unsplash",
+            "url": "https://unsplash.com/",
+            "description": ""
+          },
+          {
+            "name": "拾光壁纸",
+            "url": "https://snake.timeline.ink/",
+            "description": ""
+          },
+          {
+            "name": "梗图微缩世界",
+            "url": "https://floor796.com/",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "视频",
+        "websites": [
+          {
+            "name": "努努影视",
+            "url": "https://www.nunuyy5.org/",
+            "description": ""
+          },
+          {
+            "name": "艾旦视频",
+            "url": "https://www.lovedan.net/",
+            "description": ""
+          },
+          {
+            "name": "抖音网页版",
+            "url": "https://www.douyin.com/",
+            "description": ""
+          },
+          {
+            "name": "量子资源网",
+            "url": "https://lzizy8.com/",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "音乐",
+        "websites": [
+          {
+            "name": "无损生活 - 全网无损音乐免费下载，音乐搜索,音乐在线试听,下载,在线解析网",
+            "url": "https://flac.life/",
+            "description": "全网无损音乐免费下载，音乐搜索,音乐在线试听,下载,在线解析网](https://flac.life/)"
+          },
+          {
+            "name": "自己收集的几个可用源 · Issue #1769 · lyswhut/lx-music-desktop · GitHub",
+            "url": "https://github.com/lyswhut/lx-music-desktop/issues/1769",
+            "description": ""
+          },
+          {
+            "name": "六音软件永久地址发布页，收藏我回家不迷路！",
+            "url": "https://6yso.com/",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "书籍",
+        "websites": [
+          {
+            "name": "Calibre",
+            "url": "https://calibre-ebook.com/",
+            "description": ""
+          },
+          {
+            "name": "沉浸式翻译",
+            "url": "https://immersivetranslate.com/",
+            "description": ""
+          },
+          {
+            "name": "zlibrary",
+            "url": "https://zh.z-library.sk/",
+            "description": ""
+          },
+          {
+            "name": "技术书在线阅读",
+            "url": "https://livebook.manning.com/",
+            "description": ""
+          },
+          {
+            "name": "图灵社区",
+            "url": "https://www.ituring.com.cn/",
+            "description": ""
+          },
+          {
+            "name": "PDF 之家",
+            "url": "https://homeofpdf.com/index.html",
+            "description": ""
+          },
+          {
+            "name": "鸠摩搜书",
+            "url": "https://www.jiumodiary.com/",
+            "description": ""
+          },
+          {
+            "name": "书伴 – 你的电子书伴侣",
+            "url": "https://bookfere.com/",
+            "description": ""
+          },
+          {
+            "name": "古诗文网-古诗文经典传承",
+            "url": "https://www.gushiwen.cn/",
+            "description": ""
+          },
+          {
+            "name": "中国盲人数字图书馆",
+            "url": "http://www.cdlvi.cn/user/index",
+            "description": ""
+          },
+          {
+            "name": "Software Engineering at Google",
+            "url": "https://qiangmzsx.github.io/Software-Engineering-at-Google/#/?id=software-engineering-at-google",
+            "description": ""
+          },
+          {
+            "name": "Textbook for Electrical Engineering & Electronics",
+            "url": "https://www.allaboutcircuits.com/textbook/",
+            "description": ""
+          },
+          {
+            "name": "HTML with Superpowers | HTML with Superpowers",
+            "url": "https://htmlwithsuperpowers.netlify.app/",
+            "description": ""
+          },
+          {
+            "name": "The Illustrated Machine Learning Website",
+            "url": "https://illustrated-machine-learning.github.io/index.html",
+            "description": ""
+          },
+          {
+            "name": "SICP - Structure and Interpretation of Computer Programs, 2e",
+            "url": "http://sarabander.github.io/sicp/",
+            "description": "Structure and Interpretation of Computer Programs, 2e](http://sarabander.github.io/sicp/)"
+          },
+          {
+            "name": "JavaScript Guidebook",
+            "url": "https://tsejx.github.io/javascript-guidebook/core-modules/executable-code-and-execution-contexts/memory-management/memory-model/",
+            "description": ""
+          },
+          {
+            "name": "Learn CSS",
+            "url": "https://web.dev/learn/css/",
+            "description": ""
+          },
+          {
+            "name": "Introduction to Information Retrieval",
+            "url": "https://nlp.stanford.edu/IR-book/",
+            "description": ""
+          },
+          {
+            "name": "Introduction - Rust and WebAssembly",
+            "url": "https://rustwasm.github.io/docs/book/introduction.html",
+            "description": "Rust and WebAssembly](https://rustwasm.github.io/docs/book/introduction.html)"
+          },
+          {
+            "name": "Software Engineer interviews: Everything you need to prepare | Tech Interview Handbook",
+            "url": "https://www.techinterviewhandbook.org/software-engineering-interview-guide/",
+            "description": ""
+          },
+          {
+            "name": "Introduction to Probability for Data Science",
+            "url": "https://probability4datascience.com/",
+            "description": ""
+          },
+          {
+            "name": "Tiny_Python_Projects",
+            "url": "http://tinypythonprojects.com/Tiny_Python_Projects.pdf",
+            "description": ""
+          },
+          {
+            "name": "The Art of Assembly Language Programming",
+            "url": "http://www.phatcode.net/res/223/files/html/toc.html",
+            "description": ""
+          },
+          {
+            "name": "python 设计模式",
+            "url": "https://python-patterns.guide/",
+            "description": ""
+          },
+          {
+            "name": "game math",
+            "url": "https://gamemath.com/book/intro.html",
+            "description": ""
+          },
+          {
+            "name": "The Flask Mega-Tutorial",
+            "url": "https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world",
+            "description": ""
+          },
+          {
+            "name": "Effective Shell",
+            "url": "https://effective-shell.com/",
+            "description": ""
+          },
+          {
+            "name": "AI 作画网站收集",
+            "url": "https://github.com/hua1995116/awesome-ai-painting",
+            "description": ""
+          },
+          {
+            "name": "Nolibox Creator",
+            "url": "https://creator.nolibox.com/guest",
+            "description": ""
+          },
+          {
+            "name": "可画",
+            "url": "https://www.canva.cn/",
+            "description": ""
+          },
+          {
+            "name": "TinEye Reverse Image Search",
+            "url": "https://tineye.com/",
+            "description": ""
+          },
+          {
+            "name": "Anime Scene Search Engine - trace.moe",
+            "url": "https://trace.moe/",
+            "description": "trace.moe](https://trace.moe/)"
+          },
+          {
+            "name": "New Scientist | Science news and science articles from New Scientist",
+            "url": "https://www.newscientist.com/",
+            "description": ""
+          },
+          {
+            "name": "3058 live iptv channels tested today in 78 different languages from 131 countries around the world.",
+            "url": "https://eja.tv/",
+            "description": ""
+          },
+          {
+            "name": "十万个为什么 - 在线青少年百科全书",
+            "url": "https://10why.net/",
+            "description": "在线青少年百科全书](https://10why.net/)"
+          },
+          {
+            "name": "首页 - 合同示范文本库 - 国家市场监督管理总局",
+            "url": "https://cont.12315.cn/",
+            "description": "合同示范文本库 - 国家市场监督管理总局](https://cont.12315.cn/)"
+          },
+          {
+            "name": "折纸网站",
+            "url": "https://origami.kosmulski.org/blog/2022-10-23-fujimoto-books-public-domain",
+            "description": ""
+          },
+          {
+            "name": "100 Bytes of CSS to look great everywhere",
+            "url": "https://www.swyx.io/css-100-bytes",
+            "description": ""
+          },
+          {
+            "name": "VOCALOID - the modern singing synthesizer -",
+            "url": "https://www.vocaloid.com/en/",
+            "description": "the modern singing synthesizer -](https://www.vocaloid.com/en/)"
+          },
+          {
+            "name": "Aerial - A free and open-source Mac Screen Saver",
+            "url": "https://aerialscreensaver.github.io/",
+            "description": "A free and open-source Mac Screen Saver](https://aerialscreensaver.github.io/)"
+          },
+          {
+            "name": "AutoCut: 通过字幕来剪切视频",
+            "url": "https://github.com/mli/autocut",
+            "description": ""
+          },
+          {
+            "name": "Metaphor",
+            "url": "https://metaphor.systems/",
+            "description": ""
+          },
+          {
+            "name": "90's Cursor Effects",
+            "url": "https://tholman.com/cursor-effects/",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "网盘",
+        "websites": [
+          {
+            "name": "PanSearch | 网盘资源搜索 | 网盘搜索引擎",
+            "url": "https://www.pansearch.me/",
+            "description": ""
+          },
+          {
+            "name": "超能搜 - 百度网盘搜索神器",
+            "url": "https://www.chaonengsou.com/",
+            "description": "百度网盘搜索神器](https://www.chaonengsou.com/)"
+          },
+          {
+            "name": "搜索盘",
+            "url": "http://uukk6.cn/app/index.html?id=test",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "字体",
+        "websites": [
+          {
+            "name": "jaywcjlove/free-font: 收录商用免费汉字字体，还包括开源英文字体 Free Font",
+            "url": "https://github.com/jaywcjlove/free-font",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "图片编辑",
+        "websites": [
+          {
+            "name": "AI 根据照片生成头像",
+            "url": "https://www.strmr.com/",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "编辑 - 输出",
+        "websites": [
+          {
+            "name": "DeepL 翻译：全世界最准确的翻译",
+            "url": "https://www.deepl.com/translator",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "编程",
+        "websites": [
+          {
+            "name": "项目可视化",
+            "url": "https://github.com/githubocto/repo-visualizer",
+            "description": ""
+          },
+          {
+            "name": "</> htmx - high power tools for html",
+            "url": "https://htmx.org/",
+            "description": "high power tools for html](https://htmx.org/)"
+          },
+          {
+            "name": "Vexip UI - 创造有趣的开发体验",
+            "url": "https://www.vexipui.com/zh-CN",
+            "description": "创造有趣的开发体验](https://www.vexipui.com/zh-CN)"
+          },
+          {
+            "name": "Markdown 向 Tree 目录转化生成器· 开发者工具箱",
+            "url": "https://devtool.tech/tree",
+            "description": ""
+          },
+          {
+            "name": "网易云音乐 NodeJS 版 API",
+            "url": "https://binaryify.github.io/NeteaseCloudMusicApi/#/",
+            "description": ""
+          },
+          {
+            "name": "md-block: Render styleable Markdown in your HTML",
+            "url": "https://md-block.verou.me/",
+            "description": ""
+          },
+          {
+            "name": "Regulex：JavaScript Regular Expression Visualizer",
+            "url": "<https://jex.im/regulex/#!flags=&re=%5E(a%7Cb",
+            "description": ""
+          },
+          {
+            "name": "Regular Expression Tester and Visualizer",
+            "url": "https://devtoolcafe.com/tools/regex#!flags=img&re=",
+            "description": ""
+          },
+          {
+            "name": "Crafting Interpreters",
+            "url": "http://craftinginterpreters.com/",
+            "description": ""
+          },
+          {
+            "name": "自己动手写编译器 — 自己动手写编译器",
+            "url": "https://pandolia.net/tinyc/",
+            "description": ""
+          },
+          {
+            "name": "Writing Compilers",
+            "url": "https://takashiidobe.com/gen/writing-compilers",
+            "description": ""
+          },
+          {
+            "name": "Esprima: Parser",
+            "url": "https://esprima.org/demo/parse.html#",
+            "description": ""
+          },
+          {
+            "name": "AST explorer",
+            "url": "https://astexplorer.net/",
+            "description": ""
+          },
+          {
+            "name": "argon",
+            "url": "https://github.com/solstice23/argon-theme",
+            "description": ""
+          },
+          {
+            "name": "AI 拟声: 5 秒内克隆您的声音并生成任意语音内容",
+            "url": "https://github.com/babysor/MockingBird",
+            "description": ""
+          },
+          {
+            "name": "实现一个蚂蚁森林自动收能量辅助工具 | 靛青博客",
+            "url": "https://blog.indigo.codes/2019/03/22/_60000002-h5-alipay-app/",
+            "description": ""
+          },
+          {
+            "name": "Tweet Photo got acquired | Marc Köhlbrugge",
+            "url": "https://marc.io/tweet-photo-acquired",
+            "description": ""
+          },
+          {
+            "name": "字符作画，我用字符画个冰墩墩",
+            "url": "https://www.wdbyte.com/java/char-image.html#_1-%E5%AD%97%E7%AC%A6%E5%9B%BE%E6%A1%88%E6%80%9D%E8%B7%AF",
+            "description": ""
+          },
+          {
+            "name": "countercomplex: Algorithmic symphonies from one line of code -- how and why?",
+            "url": "https://countercomplex.blogspot.com/2011/10/algorithmic-symphonies-from-one-line-of.html",
+            "description": ""
+          },
+          {
+            "name": "Gyroflow v1.1 is out! | Gyroflow",
+            "url": "https://gyroflow.xyz/",
+            "description": ""
+          },
+          {
+            "name": "Awesome Open Source Games",
+            "url": "https://github.com/michelpereira/awesome-open-source-games",
+            "description": ""
+          },
+          {
+            "name": "How Does a Database Work? | Let’s Build a Simple Database",
+            "url": "https://cstack.github.io/db_tutorial/",
+            "description": ""
+          },
+          {
+            "name": "Althttpd: The Althttpd Webserver",
+            "url": "https://sqlite.org/althttpd/doc/trunk/althttpd.md",
+            "description": ""
+          },
+          {
+            "name": "如何写一个 web 服务器？",
+            "url": "https://www.zhihu.com/question/23657034",
+            "description": ""
+          },
+          {
+            "name": "Tutorial - Write a Shell in C • Stephen Brennan",
+            "url": "https://brennan.io/2015/01/16/write-a-shell-in-c/",
+            "description": "Write a Shell in C • Stephen Brennan](https://brennan.io/2015/01/16/write-a-shell-in-c/)"
+          },
+          {
+            "name": "SimpleWebServer 是一款使用 Java 基于 NIO 编写的超轻量级开源 Web Application Server",
+            "url": "https://github.com/94fzb/simplewebserver",
+            "description": ""
+          },
+          {
+            "name": "tiny.c - A simple, iterative HTTP/1.0 Web server that uses the GET method to serve static and dynamic content.",
+            "url": "http://csapp.cs.cmu.edu/public/ics2/code/netp/tiny/tiny.c",
+            "description": "A simple, iterative HTTP/1.0 Web server that uses the GET method to serve static and dynamic content.](http://csapp.cs.cmu.edu/public/ics2/code/netp/tiny/tiny.c)"
+          },
+          {
+            "name": "如何写一个 Web 服务器",
+            "url": "http://zyearn.com/blog/2015/05/16/how-to-write-a-server/",
+            "description": ""
+          },
+          {
+            "name": "500lines/web-server at master · aosabook/500lines",
+            "url": "https://github.com/aosabook/500lines/tree/master/web-server",
+            "description": ""
+          },
+          {
+            "name": "如何从零开始开发一个 Chrome 插件？",
+            "url": "https://mp.weixin.qq.com/s/kqNehDyBlCZ5tDlPSXJpKg",
+            "description": ""
+          },
+          {
+            "name": "I Spent 2 years Launching Tiny Projects | Tiny Projects",
+            "url": "https://tinyprojects.dev/posts/i_spent_two_years_launching_tiny_projects",
+            "description": ""
+          },
+          {
+            "name": "GitHub 开源项目维护协作指南",
+            "url": "https://github.com/eryajf/HowToStartOpenSource",
+            "description": ""
+          },
+          {
+            "name": "Building an aircraft radar system in JavaScript",
+            "url": "https://charliegerard.dev/blog/aircraft-radar-system-rtl-sdr-web-usb/",
+            "description": ""
+          },
+          {
+            "name": "Excalidraw",
+            "url": "https://excalidraw.com/",
+            "description": ""
+          },
+          {
+            "name": "paint-board",
+            "url": "https://songlh.top/paint-board/",
+            "description": ""
+          },
+          {
+            "name": "LHRUN/paint-board: 🎨 A powerful multi-end drawing board that brings together a lot of creative brushes to experience a whole new range of drawing effects!",
+            "url": "https://github.com/LHRUN/paint-board?tab=readme-ov-file",
+            "description": ""
+          },
+          {
+            "name": "yft-design",
+            "url": "https://yft.design/",
+            "description": ""
+          },
+          {
+            "name": "pointless",
+            "url": "https://github.com/kkoomen/pointless",
+            "description": ""
+          },
+          {
+            "name": "C++ Online IDE - AI-Powered Compiler",
+            "url": "https://www.adacpp.com/",
+            "description": "AI-Powered Compiler](https://www.adacpp.com/)"
+          },
+          {
+            "name": "Vue SFC Playground",
+            "url": "https://sfc.vuejs.org/",
+            "description": ""
+          },
+          {
+            "name": "The best way to build web apps without code | Bubble",
+            "url": "https://bubble.io/",
+            "description": ""
+          },
+          {
+            "name": "Aspect — Build UI, fast",
+            "url": "https://aspect.app/",
+            "description": ""
+          },
+          {
+            "name": "H5DS6.x 四川爱趣五科技有限公司",
+            "url": "https://www.h5ds.com/aboutus",
+            "description": ""
+          },
+          {
+            "name": "OHTTPS - 免费 HTTPS 证书、自动更新、自动部署",
+            "url": "https://ohttps.com/signin",
+            "description": "免费 HTTPS 证书、自动更新、自动部署](https://ohttps.com/signin)"
+          },
+          {
+            "name": "FreeSSL 首页 - FreeSSL.cn 一个提供免费 HTTPS 证书申请的网站",
+            "url": "https://freessl.cn/",
+            "description": "FreeSSL.cn 一个提供免费 HTTPS 证书申请的网站](https://freessl.cn/)"
+          },
+          {
+            "name": "Public API Lists",
+            "url": "https://github.com/public-api-lists/public-api-lists",
+            "description": ""
+          },
+          {
+            "name": "SolidJS · Reactive Javascript Library",
+            "url": "https://www.solidjs.com/",
+            "description": ""
+          },
+          {
+            "name": "Quick Reference",
+            "url": "https://wangchujiang.com/reference/",
+            "description": ""
+          },
+          {
+            "name": "Carbon | Create and share beautiful images of your source code",
+            "url": "https://carbon.now.sh/",
+            "description": ""
+          },
+          {
+            "name": "CodeImage - A tool to manage and beautify your code screenshots",
+            "url": "https://app.codeimage.dev/",
+            "description": "A tool to manage and beautify your code screenshots](https://app.codeimage.dev/)"
+          },
+          {
+            "name": "D2 Playground",
+            "url": "https://play.d2lang.com/",
+            "description": ""
+          },
+          {
+            "name": "Create a new site from git | Netlify",
+            "url": "https://app.netlify.com/start",
+            "description": ""
+          },
+          {
+            "name": "Vercel",
+            "url": "https://vercel.com/",
+            "description": ""
+          },
+          {
+            "name": "arnog/mathlive: A web component for easy math input",
+            "url": "https://github.com/arnog/mathlive",
+            "description": ""
+          },
+          {
+            "name": "leetcode",
+            "url": "https://leetcode.cn/",
+            "description": ""
+          },
+          {
+            "name": "IO Wiki",
+            "url": "https://oi-wiki.org/",
+            "description": ""
+          },
+          {
+            "name": "Vue.js 挑战 | 一个 Vue.js 在线挑战平台",
+            "url": "https://cn-vuejs-challenges.netlify.app/",
+            "description": ""
+          },
+          {
+            "name": "教孩子和妻子编程 | 算法和数据结构教程视频",
+            "url": "https://zhihua-lai.com/teaching/ch/",
+            "description": ""
+          },
+          {
+            "name": "International Journal of PoC or GTFO (Proof-of-Concept or Get The Fuck Out) | evmn.github.io",
+            "url": "https://evmn.github.io/post/2021-12-31-PoC-or-GTFO.html",
+            "description": ""
+          },
+          {
+            "name": "WebAssembly Explorer",
+            "url": "https://mbebenita.github.io/WasmExplorer/",
+            "description": ""
+          },
+          {
+            "name": "A TypeScript-like language for WebAssembly",
+            "url": "https://www.assemblyscript.org/",
+            "description": ""
+          },
+          {
+            "name": "Parcel 中文网",
+            "url": "https://zh.parceljs.org/",
+            "description": ""
+          },
+          {
+            "name": "WebGL2 理论基础",
+            "url": "https://webgl2fundamentals.org/webgl/lessons/zh_cn/",
+            "description": ""
+          },
+          {
+            "name": "JavaScript 高级程序设计第四版代码 demo",
+            "url": "http://mp.ituring.com.cn/editor?bookName=JavaScriptBookV4",
+            "description": ""
+          },
+          {
+            "name": "LABULADONG 的算法网站",
+            "url": "https://labuladong.github.io/algo/",
+            "description": ""
+          },
+          {
+            "name": "CS 自学指南",
+            "url": "https://csdiy.wiki/",
+            "description": ""
+          },
+          {
+            "name": "做题网站",
+            "url": "https://www.hackerrank.com/dashboard",
+            "description": ""
+          },
+          {
+            "name": "树莓派防吃灰指南",
+            "url": "https://github.com/zhaoolee/pi",
+            "description": ""
+          },
+          {
+            "name": "前端开发学习路线（学+测） - 阿里云全球培训中心",
+            "url": "https://edu.aliyun.com/roadmap/frontend",
+            "description": "阿里云全球培训中心](https://edu.aliyun.com/roadmap/frontend)"
+          },
+          {
+            "name": "计算机教育中缺失的一课 · the missing semester of your cs education",
+            "url": "https://missing-semester-cn.github.io/",
+            "description": ""
+          },
+          {
+            "name": "三种前端实现 VR 全景看房的方案！说不定哪天就用得上！ - 掘金",
+            "url": "https://juejin.cn/post/6973865268426571784",
+            "description": "掘金](https://juejin.cn/post/6973865268426571784)"
+          },
+          {
+            "name": "猴子都能懂的 GIT 入门 | 贝格乐（Backlog）",
+            "url": "https://backlog.com/git-tutorial/cn/",
+            "description": ""
+          },
+          {
+            "name": "Lodash 简介 | Lodash 中文文档 | Lodash 中文网",
+            "url": "https://www.lodashjs.com/",
+            "description": ""
+          },
+          {
+            "name": "虚拟内存探究，深入理解进程地址空间",
+            "url": "http://blog.coderhuo.tech/2017/10/19/Virtual_Memory_summary/",
+            "description": ""
+          },
+          {
+            "name": "文件系统介绍",
+            "url": "https://mp.weixin.qq.com/s?__biz=MzU3OTc1MDM1Mg==&mid=2247509757&idx=2&sn=44afb2cdc96f85ee55373fed1eed3609&chksm=fd63b642ca143f54eb13b9a5627484c319fd31ba89746e87a15c99c3493d8736c56bd2cc4f2e&scene=132#wechat_redirect",
+            "description": ""
+          },
+          {
+            "name": "Daryl's TCP/IP Primer",
+            "url": "https://www.ipprimer.com/#/",
+            "description": ""
+          },
+          {
+            "name": "蓝桥云课",
+            "url": "https://www.lanqiao.cn/courses/?from_login_page=true",
+            "description": ""
+          },
+          {
+            "name": "Introductory HTTP - Beginner-friendly book on HTTP",
+            "url": "https://launchschool.com/books/http",
+            "description": "Beginner-friendly book on HTTP](https://launchschool.com/books/http)"
+          },
+          {
+            "name": "Web Skills",
+            "url": "https://andreasbm.github.io/web-skills/",
+            "description": ""
+          },
+          {
+            "name": "Game Programming Patterns",
+            "url": "http://gameprogrammingpatterns.com/",
+            "description": ""
+          },
+          {
+            "name": "The Catalog of Design Patterns",
+            "url": "https://refactoring.guru/design-patterns/catalog",
+            "description": ""
+          },
+          {
+            "name": "CTFever Toolkit by uniiem",
+            "url": "https://ctfever.uniiem.com/",
+            "description": ""
+          },
+          {
+            "name": "HackTricks - HackTricks",
+            "url": "https://book.hacktricks.xyz/welcome/readme",
+            "description": "HackTricks](https://book.hacktricks.xyz/welcome/readme)"
+          },
+          {
+            "name": "CTFHub",
+            "url": "https://www.ctfhub.com/#/index",
+            "description": ""
+          },
+          {
+            "name": "We Chall",
+            "url": "http://www.wechall.net/sites.php",
+            "description": ""
+          },
+          {
+            "name": "Forgotten Security’s CTF Wiki",
+            "url": "http://ctf.forgottensec.com/wiki/index.php?title=Main_Page",
+            "description": ""
+          },
+          {
+            "name": "An intro to finding things in Linux",
+            "url": "https://www.madebygps.com/an-intro-to-finding-things-in-linux/",
+            "description": ""
+          },
+          {
+            "name": "Reliably Send an HTTP Request as a User Leaves a Page | CSS-Tricks - CSS-Tricks",
+            "url": "https://css-tricks.com/send-an-http-request-on-page-exit/",
+            "description": "CSS-Tricks](https://css-tricks.com/send-an-http-request-on-page-exit/)"
+          },
+          {
+            "name": "Tauri 系列 - 知乎",
+            "url": "https://www.zhihu.com/column/c_1519079232848785408",
+            "description": "知乎](https://www.zhihu.com/column/c_1519079232848785408)"
+          },
+          {
+            "name": "Web Scraping via Javascript Runtime Heap Snapshots - Adrian Cooney's Blog",
+            "url": "https://www.adriancooney.ie/blog/web-scraping-via-javascript-heap-snapshots",
+            "description": "Adrian Cooney's Blog](https://www.adriancooney.ie/blog/web-scraping-via-javascript-heap-snapshots)"
+          },
+          {
+            "name": "OAuth with Cloudflare Workers on a Statically Generated Site",
+            "url": "https://abyteofcoding.com/blog/oauth-with-cloudflare-workers-on-a-statically-generated-site/",
+            "description": ""
+          },
+          {
+            "name": "介绍了一种压缩算法：H.264 is Magic",
+            "url": "https://sidbala.com/h-264-is-magic/",
+            "description": ""
+          },
+          {
+            "name": "The Illustrated TLS 1.3 Connection",
+            "url": "https://tls13.xargs.org/",
+            "description": ""
+          },
+          {
+            "name": "Three Pillars of Observability | Datadog",
+            "url": "https://www.datadoghq.com/three-pillars-of-observability/",
+            "description": ""
+          },
+          {
+            "name": "What is WebAuthn and why should you care? - FusionAuth",
+            "url": "https://fusionauth.io/blog/2022/09/13/what-is-webauthn-why-do-you-care",
+            "description": "FusionAuth](https://fusionauth.io/blog/2022/09/13/what-is-webauthn-why-do-you-care)"
+          },
+          {
+            "name": "腾讯 IVWeb（一面）",
+            "url": "https://www.yuque.com/tuture/interview/wrzl64",
+            "description": ""
+          },
+          {
+            "name": "九种跨域方式实现原理（完整版） - 掘金",
+            "url": "https://juejin.cn/post/6844903767226351623",
+            "description": "掘金](https://juejin.cn/post/6844903767226351623)"
+          },
+          {
+            "name": "常见前端面试题",
+            "url": "https://mp.weixin.qq.com/mp/homepage?__biz=MzIzNjgxNzAzOQ==&hid=1&sn=4e8e6275b659d76fbfa3d3d17a87698a&scene=1&uin=&key=&devicetype=iMac+Macmini8%2C1+OSX+OSX+11.3.1+build",
+            "description": ""
+          },
+          {
+            "name": "做了一份前端面试复习计划，保熟～ - 掘金",
+            "url": "https://juejin.cn/post/7061588533214969892",
+            "description": "掘金](https://juejin.cn/post/7061588533214969892)"
+          },
+          {
+            "name": "浏览器输入 URL 后发生了什么？ - 知乎",
+            "url": "https://zhuanlan.zhihu.com/p/43369093",
+            "description": "知乎](https://zhuanlan.zhihu.com/p/43369093)"
+          },
+          {
+            "name": "让面试官膜拜你的 HTTPS 运行流程（超详细） - 知乎",
+            "url": "https://zhuanlan.zhihu.com/p/60033345",
+            "description": "知乎](https://zhuanlan.zhihu.com/p/60033345)"
+          },
+          {
+            "name": "彻底搞懂 HTTPS 的加密原理 - 知乎",
+            "url": "https://zhuanlan.zhihu.com/p/43789231",
+            "description": "知乎](https://zhuanlan.zhihu.com/p/43789231)"
+          },
+          {
+            "name": "HTTP 相关知识 | 前端工程师成长路线",
+            "url": "https://xjl271314.github.io/docs/http/#tls-ssl-%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86",
+            "description": ""
+          },
+          {
+            "name": "HTTPS 加密（握手）过程 - 简书",
+            "url": "https://www.jianshu.com/p/e30a8c4fa329",
+            "description": "简书](https://www.jianshu.com/p/e30a8c4fa329)"
+          },
+          {
+            "name": "HTTPS 详解一：附带最精美详尽的 HTTPS 原理图 - SegmentFault 思否",
+            "url": "https://segmentfault.com/a/1190000021494676",
+            "description": "SegmentFault 思否](https://segmentfault.com/a/1190000021494676)"
+          },
+          {
+            "name": "HTTPS 加密过程详解 - SegmentFault 思否",
+            "url": "https://segmentfault.com/a/1190000019976390",
+            "description": "SegmentFault 思否](https://segmentfault.com/a/1190000019976390)"
+          },
+          {
+            "name": "高级前端进阶博文 | 木易杨前端进阶",
+            "url": "https://muyiy.cn/blog/",
+            "description": ""
+          },
+          {
+            "name": "木易杨前端进阶",
+            "url": "https://muyiy.cn/",
+            "description": ""
+          },
+          {
+            "name": "前端面试常见的知识点（四处搜刮）💻 - 掘金",
+            "url": "https://juejin.cn/post/6844904078288355341#heading-101",
+            "description": "掘金](https://juejin.cn/post/6844904078288355341#heading-101)"
+          },
+          {
+            "name": "可能是最全的 “文本溢出截断省略” 方案合集 - 掘金",
+            "url": "https://juejin.cn/post/6844903988081475591",
+            "description": "掘金](https://juejin.cn/post/6844903988081475591)"
+          },
+          {
+            "name": "Daily-Interview-Question",
+            "url": "https://github.com/Advanced-Frontend/Daily-Interview-Question",
+            "description": ""
+          },
+          {
+            "name": "壹题汇总 | 木易杨前端进阶",
+            "url": "https://muyiy.cn/question/",
+            "description": ""
+          },
+          {
+            "name": "大揭秘！“恐怖”的阿里一面，我究竟想问什么 - 掘金",
+            "url": "https://juejin.cn/post/6844903909194989575",
+            "description": "掘金](https://juejin.cn/post/6844903909194989575)"
+          },
+          {
+            "name": "挑战一轮大厂后的面试总结 (含六个方向) - javascript 篇(万字长文) - 掘金",
+            "url": "https://juejin.cn/post/6844904070579240974#heading-8",
+            "description": "javascript 篇(万字长文) - 掘金](https://juejin.cn/post/6844904070579240974#heading-8)"
+          },
+          {
+            "name": "「2021」高频前端面试题汇总之 JavaScript 篇（上） - 掘金",
+            "url": "https://juejin.cn/post/6940945178899251230",
+            "description": "掘金](https://juejin.cn/post/6940945178899251230)"
+          },
+          {
+            "name": "2020 最新：100 道有答案的前端面试题（上） - 掘金",
+            "url": "https://juejin.cn/post/6847902225423925255",
+            "description": "掘金](https://juejin.cn/post/6847902225423925255)"
+          },
+          {
+            "name": "2021 年 web 前端开发经典面试题总结整理（建议收藏） - 哔哩哔哩",
+            "url": "https://www.bilibili.com/read/cv10115331",
+            "description": "哔哩哔哩](https://www.bilibili.com/read/cv10115331)"
+          },
+          {
+            "name": "前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！",
+            "url": "https://github.com/haizlin/fe-interview",
+            "description": ""
+          },
+          {
+            "name": "Web 中高级前端面试题集合（200+） - SegmentFault 思否",
+            "url": "https://segmentfault.com/a/1190000021966814",
+            "description": "SegmentFault 思否](https://segmentfault.com/a/1190000021966814)"
+          },
+          {
+            "name": "大前端面试宝典 - 图解前端",
+            "url": "https://lucifer.ren/fe-interview/#/",
+            "description": "图解前端](https://lucifer.ren/fe-interview/#/)"
+          },
+          {
+            "name": "专栏介绍 | 前端部署十五篇 | 大厂面试",
+            "url": "https://q.shanyue.tech/deploy/",
+            "description": ""
+          },
+          {
+            "name": "前言 | 大厂面试题每日一题",
+            "url": "https://q.shanyue.tech/engineering/",
+            "description": ""
+          },
+          {
+            "name": "理解 js 原型、原型链和继承 | Jiuto's blog",
+            "url": "https://jiuto.github.io/jiuto_blog/guide/js/proto.html",
+            "description": ""
+          },
+          {
+            "name": "JavaScript 深入系列",
+            "url": "https://github.com/mqyqingfeng/Blog/issues/2",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "UI 设计",
+        "websites": [
+          {
+            "name": "Font Awesome",
+            "url": "https://fontawesome.com/icons?d=gallery",
+            "description": ""
+          },
+          {
+            "name": "iconfinder",
+            "url": "https://www.iconfinder.com/",
+            "description": ""
+          },
+          {
+            "name": "Iconic — Free “do wtf you want with” pixel-perfect icons",
+            "url": "https://iconic.app/",
+            "description": ""
+          },
+          {
+            "name": "iconfont-阿里巴巴矢量图标库",
+            "url": "https://www.iconfont.cn/",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "数据",
+        "websites": []
+      },
+      {
+        "name": "加密货币",
+        "websites": [
+          {
+            "name": "门罗币矿池 - heromiers",
+            "url": "https://monero.herominers.com/#",
+            "description": "heromiers](https://monero.herominers.com/#)"
+          },
+          {
+            "name": "门罗币网页版钱包 - mymonero",
+            "url": "https://wallet.mymonero.com/",
+            "description": "mymonero](https://wallet.mymonero.com/)"
+          },
+          {
+            "name": "AXS Staking Dashboard",
+            "url": "https://stake.axieinfinity.com/",
+            "description": ""
+          },
+          {
+            "name": "axie 市场",
+            "url": "https://app.axieinfinity.com/marketplace/axies/",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "加密货币交易所 API 文档",
+        "websites": [
+          {
+            "name": "基本信息 | Binance Open Platform",
+            "url": "https://developers.binance.com/docs/zh-CN/derivatives/usds-margined-futures/general-info",
+            "description": ""
+          },
+          {
+            "name": "简介 | Bitget API",
+            "url": "https://www.bitget.com/zh-CN/api-doc/common/intro",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "博客文章",
+        "websites": [
+          {
+            "name": "如何测试电梯 – 韩师傅就是我",
+            "url": "http://hanzilu.com/wordpress/?p=239",
+            "description": ""
+          },
+          {
+            "name": "7 reasons to use Canva over PowerPoint for better presentation design",
+            "url": "https://www.xda-developers.com/tips-for-canva-presentations-vs-powerpoint/",
+            "description": ""
+          },
+          {
+            "name": "Next-level frosted glass with backdrop-filter • Josh W. Comeau",
+            "url": "https://www.joshwcomeau.com/css/backdrop-filter/",
+            "description": ""
+          },
+          {
+            "name": "Ideas from \"A Philosophy of Software Design\"",
+            "url": "https://www.16elt.com/2024/09/25/first-book-of-byte-sized-tech/index.html",
+            "description": ""
+          },
+          {
+            "name": "zhangchenchen/self-consistent-coder: 如何成为一名自洽的程序员",
+            "url": "https://github.com/zhangchenchen/self-consistent-coder",
+            "description": ""
+          },
+          {
+            "name": "关于 AI 学习方法的思考——产品经理入门人工智能 | 人人都是产品经理",
+            "url": "https://www.woshipm.com/ai/804024.html",
+            "description": ""
+          },
+          {
+            "name": "图灵奖得主 Yann LeCun 万字演讲：今天的 AI 比猫还笨，自曝早已放弃大模型-36 氪",
+            "url": "https://www.36kr.com/p/3001427555235970",
+            "description": ""
+          },
+          {
+            "name": "流浪天下 – 背包行走，流浪天下",
+            "url": "https://maie.name/",
+            "description": ""
+          },
+          {
+            "name": "Is the 10,000-Year-Old Yonaguni Monument a Man-Made Marvel or Nature's Art?",
+            "url": "https://www.ancientoriginsunleashed.com/p/is-the-10000-year-old-yonaguni-monument",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "电子杂志",
+        "websites": [
+          {
+            "name": "bestblogs.dev - 汇集顶级编程、人工智能、产品、科技文章，大语言模型摘要评分辅助阅读，探索编程和技术未来",
+            "url": "https://www.bestblogs.dev/#subscribe",
+            "description": "汇集顶级编程、人工智能、产品、科技文章，大语言模型摘要评分辅助阅读，探索编程和技术未来](https://www.bestblogs.dev/#subscribe)"
+          },
+          {
+            "name": "ThoughtCo.com is the World's Largest Education Resource",
+            "url": "https://www.thoughtco.com/",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "英语学习资源",
+        "websites": [
+          {
+            "name": "BBC Learning English - Learn English vocabulary",
+            "url": "https://www.bbc.co.uk/learningenglish/english/vocabulary",
+            "description": "Learn English vocabulary](https://www.bbc.co.uk/learningenglish/english/vocabulary)"
+          },
+          {
+            "name": "田间小站 - 高级英语学习",
+            "url": "https://www.tjxz.cc/",
+            "description": "高级英语学习](https://www.tjxz.cc/)"
+          }
+        ]
+      },
+      {
+        "name": "其他",
+        "websites": [
+          {
+            "name": "Google 艺术与文化",
+            "url": "https://artsandculture.google.com/?hl=zh-cn",
+            "description": ""
+          },
+          {
+            "name": "创业大全 - 大学生创新创业项目资源库",
+            "url": "https://cy.urongda.com/",
+            "description": "大学生创新创业项目资源库](https://cy.urongda.com/)"
+          },
+          {
+            "name": "BeddyStories - 全球经典儿童睡前故事库（0-12 岁）",
+            "url": "https://beddystories.com/zh",
+            "description": "全球经典儿童睡前故事库（0-12 岁）](https://beddystories.com/zh)"
+          },
+          {
+            "name": "Dollar Street - photos as data to kill country stereotypes",
+            "url": "https://www.gapminder.org/dollar-street",
+            "description": "photos as data to kill country stereotypes](https://www.gapminder.org/dollar-street)"
+          },
+          {
+            "name": "WATCHING THE WORLD",
+            "url": "https://webcamaze.engineering.zhaw.ch/watchingtheworld/",
+            "description": ""
+          },
+          {
+            "name": "VPS Black Friday - Cheapest VPS Flash Deals",
+            "url": "https://vps.blackfriday/",
+            "description": "Cheapest VPS Flash Deals](https://vps.blackfriday/)"
+          },
+          {
+            "name": "LinkChecker",
+            "url": "https://link-checker.itea.dev/",
+            "description": ""
+          },
+          {
+            "name": "Proofs without words",
+            "url": "https://artofproblemsolving.com/wiki/index.php/Proofs_without_words",
+            "description": ""
+          },
+          {
+            "name": "gfwlist",
+            "url": "https://github.com/gfwlist/gfwlist",
+            "description": ""
+          },
+          {
+            "name": "山月-前端工程师-一纸简历",
+            "url": "https://cv.devtool.tech/app",
+            "description": ""
+          },
+          {
+            "name": "免费 MarkDown 在线简历-专业简历制作工具-木及简历",
+            "url": "https://www.mujicv.com/",
+            "description": ""
+          },
+          {
+            "name": "DeFi 知识库",
+            "url": "https://tokeninsight-support.gitbook.io/ti_defi/",
+            "description": ""
+          },
+          {
+            "name": "根据经纬度定位",
+            "url": "https://lbsyun.baidu.com/jsdemo/demo/yLngLatLocation.htm",
+            "description": ""
+          },
+          {
+            "name": "爱发电",
+            "url": "https://afdian.com/",
+            "description": ""
+          },
+          {
+            "name": "机械表原理",
+            "url": "https://ciechanow.ski/mechanical-watch/",
+            "description": ""
+          },
+          {
+            "name": "公式化剖析色彩三要素：色相、饱和度、明度",
+            "url": "https://zhuanlan.zhihu.com/p/30409532",
+            "description": ""
+          },
+          {
+            "name": "Gold Price History Chart | Gold Price Trends | Goldhub",
+            "url": "https://china.gold.org/goldhub/data/gold-prices",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+]
