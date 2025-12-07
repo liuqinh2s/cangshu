@@ -77,9 +77,21 @@ async function importWebsites() {
     
     let importedCount = 0;
     let failedCount = 0;
+    let duplicateCount = 0;
+    
+    // 先获取所有已存在的URL，用于去重检查
+    const existingWebsites = await Website.find({}, 'url');
+    const existingUrls = new Set(existingWebsites.map(w => w.url));
     
     for (const websiteData of websites) {
       try {
+        // 检查URL是否已存在
+        if (existingUrls.has(websiteData.url)) {
+          duplicateCount++;
+          console.log(`网站已存在，跳过导入: ${websiteData.name}`);
+          continue;
+        }
+        
         // 创建网站记录，并设置默认用户为创建者
         const website = new Website({
           ...websiteData,
@@ -92,6 +104,9 @@ async function importWebsites() {
         // 保存到数据库
         await website.save();
         
+        // 添加到已存在URL集合中
+        existingUrls.add(websiteData.url);
+        
         importedCount++;
         console.log(`成功导入网站: ${website.title}`);
         
@@ -101,12 +116,18 @@ async function importWebsites() {
           await new Promise(resolve => setTimeout(resolve, 1000));
         }
       } catch (error) {
-        failedCount++;
-        console.error(`导入网站失败 ${websiteData.name}:`, error.message);
+        // 检查是否是重复键错误
+        if (error.code === 11000) {
+          duplicateCount++;
+          console.log(`网站已存在(重复键错误)，跳过导入: ${websiteData.name}`);
+        } else {
+          failedCount++;
+          console.error(`导入网站失败 ${websiteData.name}:`, error.message);
+        }
       }
     }
     
-    console.log(`\n导入完成！成功导入 ${importedCount} 个网站，失败 ${failedCount} 个。`);
+    console.log(`\n导入完成！成功导入 ${importedCount} 个网站，失败 ${failedCount} 个，跳过重复 ${duplicateCount} 个。`);
     mongoose.connection.close();
   } catch (error) {
     console.error('导入过程中发生错误:', error);

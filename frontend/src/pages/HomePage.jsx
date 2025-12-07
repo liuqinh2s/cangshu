@@ -102,14 +102,13 @@ const HomePage = () => {
     { key: 'collections', icon: <StarOutlined />, label: '我的收藏' }
   ];
 
-  // 初始化加载网站列表 - 使用后端API
+  // 初始化加载网站列表 - 使用后端API获取动态数据
   useEffect(() => {
     setLoading(true);
     try {
-      // 从后端API获取网站列表
-      websiteService.getWebsites({ search: searchText })
+      // 从后端API获取网站列表，用于丰富本地数据
+      websiteService.getWebsites({ search: '' })
         .then(response => {
-          // 确保每个网站都有category和subcategory字段
           const processedWebsites = response.websites.map(website => ({
             ...website,
             name: website.title, // 保持与本地数据结构一致
@@ -119,16 +118,15 @@ const HomePage = () => {
           setWebsites(processedWebsites);
         })
         .catch(error => {
-          console.error('获取网站列表失败:', error);
-          message.error('获取网站列表失败');
+          console.error('获取后端网站数据失败:', error);
+          // 即使后端API调用失败，也继续加载本地数据
         });
     } catch (error) {
-      message.error('获取网站列表失败');
       console.error('获取网站列表失败:', error);
     } finally {
       setLoading(false);
     }
-  }, [searchText]);
+  }, []);
 
   // 处理搜索
   const handleSearch = () => {
@@ -238,7 +236,7 @@ const HomePage = () => {
           <div key={category.name} style={{ padding: '8px 0' }}>
             {!collapsed && (
               <CategoryTitle>
-                {category.subcategories.length > 0 ? `${category.name}` : category.name}
+                {category.name}
               </CategoryTitle>
             )}
             <Menu
@@ -332,10 +330,28 @@ const HomePage = () => {
                 
                 {/* 子分类区域 */}
                 {category.subcategories.map(subcategory => {
-                  // 过滤该子分类下的网站
-                  const filteredWebsites = websites.filter(website => 
-                    website.category === category.name
-                  );
+                  // 过滤该子分类下的网站 - 使用来自navigation_data.json的本地数据
+                  const localWebsites = subcategory.websites || [];
+                  
+                  // 从后端数据中查找相同的网站，获取点赞数、收藏数等动态数据
+                  const enrichedWebsites = localWebsites.map(localWebsite => {
+                    const backendWebsite = websites.find(w => w.url === localWebsite.url);
+                    return backendWebsite || {
+                      ...localWebsite,
+                      likes: [],
+                      views: 0,
+                      createdAt: new Date().toISOString(),
+                      creator: { nickname: '本地数据' }
+                    };
+                  });
+                  
+                  // 如果有搜索条件，进一步过滤
+                  const filteredWebsites = searchText
+                    ? enrichedWebsites.filter(website => 
+                        website.name.includes(searchText) || 
+                        (website.description && website.description.includes(searchText))
+                      )
+                    : enrichedWebsites;
                   
                   // 如果该子分类下没有网站且没有搜索条件，不显示
                   if (filteredWebsites.length === 0 && !searchText) {

@@ -1,7 +1,7 @@
 import json
 
 # 读取导航数据
-with open('/Users/a1-6/git/cangshu/navigation_data.json', 'r', encoding='utf-8') as f:
+with open('/Users/a1-6/git/cangshu/frontend/src/data/navigation_data.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # 检查重复的一级分类
